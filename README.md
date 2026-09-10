@@ -35,25 +35,6 @@ Variables include:
 
 More than half of the participants (57.9%) were classified as having metabolic syndrome. Descriptive differences were observed across several participant characteristics and health-related factors, including smoking, Khat use, physical exercise, BMI, and blood pressure.
 
-
-- Age
-- Gender
-- Education
-- Income
-- Smoking
-- Khat use
-- Salt intake
-- Physical exercise
-- Sitting time
-- Systolic blood pressure
-- Diastolic blood pressure
-- Waist circumference
-- Fasting blood sugar
-- Triglycerides
-- HDL
-- BMI
-- Metabolic syndrome
-
 ## Analysis
 
 The project includes:
@@ -65,9 +46,6 @@ The project includes:
 - Summary of metabolic syndrome
 - Descriptive analysis of selected risk factors and clinical characteristics
 
-## OVER ALL Finding
-
-Metabolic syndrome was observed in 286 of 494 valid observations (57.89%).
 
 ## Project Purpose
 
