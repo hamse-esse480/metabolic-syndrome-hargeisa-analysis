@@ -65,7 +65,7 @@ The project includes:
 - Summary of metabolic syndrome
 - Descriptive analysis of selected risk factors and clinical characteristics
 
-## Key Finding
+## OVER ALL Finding
 
 Metabolic syndrome was observed in 286 of 494 valid observations (57.89%).
 
