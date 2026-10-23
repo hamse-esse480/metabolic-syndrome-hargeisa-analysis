@@ -50,6 +50,13 @@ The exact operational definition or diagnostic criteria used to classify metabol
 - Descriptive differences do not establish causal relationships or independent associations.
 - Verify that the workbook contains no directly identifying or sensitive individual-level information before keeping it public.
 
+## Project Files & Dashboard Preview
+
+- **Dashboard preview:** [Metabolic Syndrome Dashboard](./Dashboard3%20.png)
+- **Excel workbook:** [Data Cleaning Workbook](./Data%20Cleaning%20.xlsx)
+
+The dashboard preview is stored as PNG, which is suitable for clear chart labels and text.
+
 ## Project Purpose
 
 This project demonstrates practical skills in health data cleaning, validation, descriptive analysis, and interpretation using Microsoft Excel.
