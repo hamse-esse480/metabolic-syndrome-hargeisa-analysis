@@ -2,9 +2,7 @@
 
 ## Project Overview
 
-This project presents an Excel-based descriptive analysis of metabolic syndrome among adults in Hargeisa, Somaliland.
-
-The analysis examines selected demographic, behavioral, clinical, and metabolic characteristics and describes the distribution of metabolic syndrome in the study dataset.
+This project presents an Excel-based descriptive analysis of metabolic syndrome among adults in Hargeisa, Somaliland. It examines selected demographic, behavioral, clinical, and metabolic characteristics in the study dataset.
 
 ## Tools Used
 
@@ -12,38 +10,46 @@ The analysis examines selected demographic, behavioral, clinical, and metabolic 
 
 ## Dataset
 
-- 494 valid observations
+- 494 valid observations, according to the current project summary
 - Adult participants in Hargeisa
-- Metabolic syndrome outcome: Yes/No
+- Outcome recorded as metabolic syndrome: Yes/No
+
+### Variables described in the current project summary
+
+- Metabolic syndrome status
+- Gender
+- Age
+- Education
+- Physical exercise
+- Smoking
+- Khat use
+- Systolic blood pressure
+- Body mass index (BMI)
+- Fasting blood sugar
+
+The exact operational definition or diagnostic criteria used to classify metabolic syndrome are not documented in this README. Add the criteria and source used in the workbook before presenting the outcome as a clinically validated diagnosis.
 
 ## Key Findings
 
-- **Metabolic syndrome:** 57.9% (286/494) of participants were classified as having metabolic syndrome, while 42.1% were not.
+- **Metabolic syndrome:** 286/494 (57.9%) were classified as having metabolic syndrome; 208/494 (42.1%) were not.
 - **Gender:** Females represented 56.1% of participants and males 43.9%.
-- **Age:** The mean age was 42.14 years, with an age range of 19–82 years.
+- **Age:** Mean age was 42.14 years; range 19–82 years.
 - **Education:** University education was the largest category (34.4%), followed by secondary (27.1%), primary (21.7%), and no formal education (16.8%).
-- **Physical exercise:** Among participants reporting physical exercise, 57.3% had metabolic syndrome.
-- **Smoking:** Metabolic syndrome was present in 67.7% of smokers compared with 56.5% of non-smokers.
-- **Khat use:** Metabolic syndrome was present in 59.3% of Khat users compared with 57.6% of non-users.
-- **Blood pressure:** Mean systolic blood pressure was 127.91 mmHg among participants with metabolic syndrome and 126.69 mmHg among those without it.
-- **BMI:** Overall mean BMI was 25.44 kg/m²; mean BMI was 25.70 kg/m² among participants with metabolic syndrome and 25.08 kg/m² among those without it.
-- **Fasting blood sugar:** The overall mean fasting blood sugar was 111.16 mg/dL.
+- **Physical exercise:** Among participants reporting physical exercise, 57.3% were classified as having metabolic syndrome.
+- **Smoking:** 67.7% among smokers versus 56.5% among non-smokers were classified as having metabolic syndrome.
+- **Khat use:** 59.3% among Khat users versus 57.6% among non-users were classified as having metabolic syndrome.
+- **Systolic blood pressure:** Mean was 127.91 mmHg among those classified with metabolic syndrome and 126.69 mmHg among those without it.
+- **BMI:** Overall mean was 25.44 kg/m²; mean was 25.70 kg/m² among those with metabolic syndrome and 25.08 kg/m² among those without it.
+- **Fasting blood sugar:** Overall mean was 111.16 mg/dL.
 
-### Overall Finding
+## Data Quality and Limitations
 
-More than half of the participants (57.9%) were classified as having metabolic syndrome. Descriptive differences were observed across several participant characteristics and health-related factors, including smoking, Khat use, physical exercise, BMI, and blood pressure.
-
-## Analysis
-
-The project includes:
-
-- Data cleaning
-- Data validation
-- Descriptive statistics
-- Frequency distributions
-- Summary of metabolic syndrome
-- Descriptive analysis of selected risk factors and clinical characteristics
+- The dataset source, sampling approach, collection period, and missing-value handling are not documented in this README.
+- The operational definition and cut-off for metabolic syndrome must be confirmed from the workbook and cited to the selected diagnostic standard.
+- The figures above are descriptive summaries and have not been independently re-calculated from the workbook in this README update.
+- Descriptive differences do not establish causal relationships or independent associations.
+- Verify that the workbook contains no directly identifying or sensitive individual-level information before keeping it public.
 
 ## Project Purpose
 
-The purpose of this project is to demonstrate practical skills in health data management, data cleaning, descriptive analysis, and interpretation using Microsoft Excel.
+This project demonstrates practical skills in health data cleaning, validation, descriptive analysis, and interpretation using Microsoft Excel.
