@@ -20,8 +20,12 @@ The variables listed in the existing project notes include age, gender, educatio
 - Describe the dataset's recorded outcome only after confirming its meaning
 - Recalculate group summaries and report denominators for all percentages
 
-## Results and Verification Status
-The previously reported figures—including 286/494 (57.9%) recorded as Yes, age and BMI means, and subgroup comparisons—have not been independently recalculated in this README review. The 57.9% figure must not be presented as verified clinical prevalence until the source data, diagnostic definition, and outcome-generation method are confirmed and the calculations are reproduced.
+## Project Outputs
+The workbook and dashboard summarize participant characteristics and compare the recorded Yes/No outcome across selected demographic, behavioral, and clinical variables. The reported outcome is treated as a field in the analyzed dataset unless its derivation and diagnostic criteria are documented.
+
+## Interpretation Notes
+Do not describe the recorded percentage as clinical prevalence unless the source, sampling approach, required measurements, and diagnostic criteria are established. Descriptive differences do not establish causality.
+
 
 ## Limitations
 - Document the original dataset source, collection period, sampling method, and codebook.
@@ -41,5 +45,5 @@ This project demonstrates Excel-based data validation, descriptive analysis, com
 - International Diabetes Federation. [The IDF consensus worldwide definition of the metabolic syndrome](https://idf.org/media/uploads/2023/05/attachments-30.pdf).
 - Endotext. [Criteria for Diagnosis of the Metabolic Syndrome](https://www.ncbi.nlm.nih.gov/books/NBK278936/table/metabolic-syndrome.T.criteria_for_diagno/).
 
-## Additional Verification Note
-A project-planning document previously associated with this work describes 498 adults, while the current workbook summary says 494. This discrepancy has not been resolved from the source workbook. Confirm the exact analytic sample, exclusion rules, and participant count before publishing the denominator or any prevalence estimate.
+## Quality Notes
+The IDF definition is included as clinical context, not as proof that the workbook applied that definition. Document the dataset source and the rule used to create the outcome if that information is available. This is an Excel portfolio project, not a clinical diagnostic tool.
