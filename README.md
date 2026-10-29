@@ -1,65 +1,34 @@
 # Metabolic Syndrome Analysis — Hargeisa
 
 ## Project Overview
-An Excel-based descriptive analysis of demographic, behavioral, and selected clinical/metabolic measurements in an adult dataset from Hargeisa, Somaliland.
-
-**Important:** The current README does not document the diagnostic criteria used to classify metabolic syndrome. Until the operational definition and source are confirmed, the outcome should be described as the dataset's recorded classification, not as an independently validated clinical diagnosis.
+An Excel-based descriptive analysis of demographic, behavioral, and selected clinical/metabolic measurements in an adult dataset described in the project materials as being from Hargeisa, Somaliland.
 
 ## Tool
 - Microsoft Excel
 
-## Dataset and Variables
-The current workbook summary reports 494 observations and an outcome recorded as metabolic syndrome (Yes/No). Variables described in the project include:
-- Recorded metabolic syndrome status
-- Gender and age
-- Education
-- Physical exercise
-- Smoking
-- Khat use
-- Systolic blood pressure
-- Body mass index (BMI)
-- Fasting blood sugar
+## Dataset and Source Status
+The repository's exact source citation, collection period, sampling method, codebook, and diagnostic algorithm are not documented. The workbook summary describes 494 observations and a Yes/No outcome labelled metabolic syndrome, but these details and the origin of the outcome have not been independently verified in this README review.
 
-The source citation, sampling method, data collection period, and handling of missing values are not documented here. Confirm them from the original project records.
+The [International Diabetes Federation (IDF) consensus definition](https://idf.org/media/uploads/2023/05/attachments-30.pdf) requires central obesity (usually assessed by waist circumference, with specified exceptions) plus at least two of four factors: raised triglycerides, reduced HDL cholesterol, raised blood pressure, or raised fasting plasma glucose. Other harmonized definitions use three of five components. The criteria used must be identified before the outcome can be interpreted as a clinical classification.
+
+The variables listed in the existing project notes include age, gender, education, exercise, smoking, khat use, systolic blood pressure, BMI, and fasting blood sugar. This list alone does not establish that the required diagnostic criteria were available or applied. Do not describe the recorded Yes/No outcome as a clinically confirmed diagnosis unless the original source and classification method support that interpretation.
 
 ## Analysis Workflow
-- Data cleaning and validation
-- Descriptive summaries of participant characteristics
-- Distribution of the recorded metabolic-syndrome classification
-- Descriptive comparisons by selected demographic, behavioral, and clinical variables
-- Review of missing values and outcome definitions
+- Check the original source and variable definitions
+- Validate record counts, duplicate IDs, missing values, and value ranges
+- Summarize participant characteristics
+- Describe the dataset's recorded outcome only after confirming its meaning
+- Recalculate group summaries and report denominators for all percentages
 
-## Findings Reported in the Current Workbook Summary
-These values are carried over from the existing project summary and have not been independently recalculated in this README review:
-
-- **Recorded metabolic-syndrome classification:** 286/494 (57.9%) Yes and 208/494 (42.1%) No.
-- **Gender:** 56.1% female and 43.9% male.
-- **Age:** Mean 42.14 years; reported range 19–82 years.
-- **Education:** University 34.4%, secondary 27.1%, primary 21.7%, and no formal education 16.8%.
-- **Physical exercise:** 57.3% of participants reporting exercise were recorded as having the outcome.
-- **Smoking:** 67.7% among smokers versus 56.5% among non-smokers were recorded as having the outcome.
-- **Khat use:** 59.3% among users versus 57.6% among non-users were recorded as having the outcome.
-- **Systolic blood pressure:** Reported mean 127.91 mmHg among those classified Yes and 126.69 mmHg among those classified No.
-- **BMI:** Reported overall mean 25.44 kg/m²; 25.70 kg/m² for Yes and 25.08 kg/m² for No.
-- **Fasting blood sugar:** Reported overall mean 111.16 mg/dL.
-
-Recalculate these values from the workbook before using them in a public presentation, report, or LinkedIn post. For subgroup percentages, state whether the denominator is the subgroup total or the outcome total.
-
-## Outcome Definition
-Before interpreting the 57.9% figure as prevalence of metabolic syndrome, document:
-- The diagnostic definition or guideline and its citation
-- Required components and cut-offs
-- Whether the criteria require a specific combination of components
-- How missing component values were handled
-- Whether the Yes/No outcome was supplied by the original source or derived in this project
-
-Do not infer diagnostic criteria from the variable list alone. If the original criteria cannot be confirmed, label the outcome as recorded metabolic-syndrome classification rather than claiming a clinically verified diagnosis.
+## Results and Verification Status
+The previously reported figures—including 286/494 (57.9%) recorded as Yes, age and BMI means, and subgroup comparisons—have not been independently recalculated in this README review. The 57.9% figure must not be presented as verified clinical prevalence until the source data, diagnostic definition, and outcome-generation method are confirmed and the calculations are reproduced.
 
 ## Limitations
-- Source, collection period, sampling method, and outcome definition need confirmation.
-- The current figures are descriptive and have not been independently recalculated for this README update.
-- Group differences do not establish causality or independent associations.
-- Check that the workbook contains no direct identifiers or sensitive individual-level information before keeping it public.
+- Document the original dataset source, collection period, sampling method, and codebook.
+- State whether the outcome was supplied by the source or derived in the workbook.
+- Record the exact diagnostic criteria, cut-offs, required component combination, and handling of missing component values.
+- Descriptive group differences do not establish causality or independent associations.
+- Check that the public workbook contains no direct identifiers or sensitive individual-level information.
 
 ## Project Files
 - [Dashboard preview](<./Dashboard3%20.png>)
@@ -67,3 +36,7 @@ Do not infer diagnostic criteria from the variable list alone. If the original c
 
 ## Project Purpose
 This project demonstrates Excel-based data validation, descriptive analysis, comparison of recorded outcome groups, and responsible interpretation of health data.
+
+## Reference
+- International Diabetes Federation. [The IDF consensus worldwide definition of the metabolic syndrome](https://idf.org/media/uploads/2023/05/attachments-30.pdf).
+- Endotext. [Criteria for Diagnosis of the Metabolic Syndrome](https://www.ncbi.nlm.nih.gov/books/NBK278936/table/metabolic-syndrome.T.criteria_for_diagno/).
