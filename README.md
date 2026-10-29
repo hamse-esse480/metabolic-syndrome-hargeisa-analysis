@@ -40,3 +40,6 @@ This project demonstrates Excel-based data validation, descriptive analysis, com
 ## Reference
 - International Diabetes Federation. [The IDF consensus worldwide definition of the metabolic syndrome](https://idf.org/media/uploads/2023/05/attachments-30.pdf).
 - Endotext. [Criteria for Diagnosis of the Metabolic Syndrome](https://www.ncbi.nlm.nih.gov/books/NBK278936/table/metabolic-syndrome.T.criteria_for_diagno/).
+
+## Additional Verification Note
+A project-planning document previously associated with this work describes 498 adults, while the current workbook summary says 494. This discrepancy has not been resolved from the source workbook. Confirm the exact analytic sample, exclusion rules, and participant count before publishing the denominator or any prevalence estimate.
